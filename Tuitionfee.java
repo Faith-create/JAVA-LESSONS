@@ -7,7 +7,7 @@ while(students<100){
 
     System.out.println("Enter the number of hours");
     double hours= myObj.nextDouble();
-    double totalfees=myObj.nextDouble();
+    double totalfees=0;
      if (hours<=15) {
     totalfees = hours*500;
      }
