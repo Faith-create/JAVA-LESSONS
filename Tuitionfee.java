@@ -3,7 +3,7 @@ public class Tuitionfee {
  public static void main(String arg[]){
  int students = 0;
 while(students<100){
-        Scanner myObj = new Scanner(System.in);
+Scanner myObj = new Scanner(System.in);
 
     System.out.println("Enter the number of hours");
     double hours= myObj.nextDouble();
